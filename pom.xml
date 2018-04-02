@@ -8,5 +8,16 @@
     <artifactId>component-sdk-base</artifactId>
     <version>1.0.0</version>
 
-
+    <distributionManagement>
+        <repository>
+            <id>dlfc-release</id>
+            <name>dlfc release Respoitories</name>
+            <url>http://10.32.156.187:9091/nexus/content/repositories/dlfc-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>dlfc-snapshots</id>
+            <name>dlfc snapshots repo</name>
+            <url>http://10.32.156.187:9091/nexus/content/repositories/dlfc-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
